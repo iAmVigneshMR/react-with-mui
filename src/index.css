@@ -1,13 +1,38 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.txt-color {
+  color: #fff !important;
+}
+
+.App {
+  background-image: url("https://s1.it.atcdn.net/wp-content/uploads/2017/01/phinda-XL-48.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100Vh;
+}
+
+.header-container {
+  background-color: #3a3c43;
+}
+
+.header-container .header-img {
+  width: 30%;
+}
+
+.header-text {
+  font-size: 15px;
+  padding: 0px 6px 6px 5px;
+  margin: 5px 0px;
+}
+
+.headline-txt {
+  text-align: center;
+  padding: 0px 10px;
+  font-weight: 500;
+  line-height: 1.2;
 }
